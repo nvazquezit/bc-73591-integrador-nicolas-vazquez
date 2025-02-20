@@ -1,0 +1,174 @@
+/* ------------------------------------- */
+/* HEADER */
+/* ------------------------------------- */
+
+.main-header {
+    display: flex;
+    flex-direction: column-reverse;
+
+    @media screen and (min-width: 992px) {
+        & {
+            flex-direction: column;
+        }
+    }
+}
+
+#menu {
+    display: none; /* para hacer funcionar el menu hamburguesa */
+
+    &:checked + .nav-bar {
+        display: block;
+    }
+
+    &:checked ~ .search-bar .menu-toogle .menu-toogle__label {
+        background-color: white;
+    }
+}
+
+/* ------------------------------------- */
+/* NAVBAR */
+/* ------------------------------------- */
+
+.nav-bar {
+    background-color: #333;
+    display: none;
+    
+    &__nav-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+
+        @media screen and (min-width: 992px) {
+            & {
+                flex-direction: row;
+            }
+        }
+    }
+
+    &__nav-item {
+        text-align: center;
+    }
+
+    &__nav-link {
+        display: block;
+        background-color: #333;
+        padding: 1rem 2rem;
+        color: white;
+    }
+
+    @media screen and (min-width: 992px) {
+        & {
+            display: block;
+        }
+    }
+}
+
+/* ------------------------------------- */
+/* SEARCH BAR */
+/* ------------------------------------- */
+
+.search-bar {
+    display: flex;
+    background-color: #ffed00;
+    justify-content: space-around;
+    align-items: normal;
+    width: 100%;
+    margin: 0 auto;
+
+    &__logo-container {
+        width: 18.75rem;
+        height: 3.75rem;
+    }
+
+    &__form-container {
+        padding: 1rem;
+        background-color: #ffed00;
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    &__form-label {
+        display: none;
+    }
+
+    &__form-search {
+        background-color: white;
+        padding: 10px 100px;
+        border-radius: 20px;
+        margin-right: 5px;
+        text-align: center;
+    }
+
+    &__form-submit {
+        background-color: #333;
+        color: white;
+        border-radius: 20px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    &__carrito-container {
+        flex: 0 0 3rem;
+        background-color: #ffed00;
+        display: flex;
+        width: 100%;
+        cursor: pointer;
+        font-size: 2rem;
+        margin-right: 1rem;
+        align-items: center;
+    }
+    
+}
+
+/* ------------------------------------- */
+/* MENU TOOGLE */
+/* ------------------------------------- */
+
+.menu-toogle {
+    display: block;
+    background-color: #333;
+    flex: 0 0 3rem;
+    position: relative;
+    cursor: pointer;
+
+    &__label {
+        display: block;
+        background-color: #ffed00;
+        height: 100%;
+        cursor: pointer;
+    }
+
+    &__top-bread,
+    &__meat,
+    &__bottom-bread {
+        display: block;
+        background-color: #333;
+        height: .2rem;
+        position: absolute;
+        left: .5rem;
+        right: .5rem;        
+    }
+
+    &__top-bread {
+        top: .8rem;
+    }
+
+    &__meat {
+        top: 50%;
+        margin-top: -.1rem;
+    }
+
+    &__bottom-bread {
+        bottom: .8rem;
+    }
+
+    @media screen and (min-width: 992px) {
+        & {
+            display: none;
+        }
+    }
+    
+}

@@ -1,0 +1,16 @@
+.main-aboutus {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    &__header-h1 {
+        margin-top: 120px;
+    }
+
+    &__header-h2 {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+   
+}
