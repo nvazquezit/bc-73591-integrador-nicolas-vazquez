@@ -4,10 +4,10 @@
 
 ## NETLIFY LINK
 ```sh
-https://admirable-puppy-5aa278.netlify.app
+https://resplendent-beignet-cf8aad.netlify.app
 ``` 
 
 ## GITHUB LINK
 ```sh
-https://github.com/nvazquezit/desafio-04.git
+https://github.com/nvazquezit/bc-73591-integrador-nicolas-vazquez.git
 ```
