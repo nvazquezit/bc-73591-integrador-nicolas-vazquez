@@ -17,6 +17,7 @@
     
     &__payments {
         display: flex;
+        justify-content: space-between;
         width: 3rem;
         height: 2rem;
         gap: 30px;

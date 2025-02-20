@@ -1,5 +1,13 @@
-# Creamos el proyecto VITE de cero para el integrador
+# PROYECTO INTEGRADOR - ETAPA 1
 
+## Nombre: Nicolas Vazquez
+
+## NETLIFY LINK
 ```sh
-npm create vite@latest ./ -- --template vanilla
+https://admirable-puppy-5aa278.netlify.app
+``` 
+
+## GITHUB LINK
+```sh
+https://github.com/nvazquezit/desafio-04.git
 ```
