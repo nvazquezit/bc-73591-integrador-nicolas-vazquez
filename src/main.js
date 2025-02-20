@@ -22,8 +22,9 @@ let start = () => {
                 <div class="card__content">
                   <h2 class="card__heading">${prod.nombre}</h2>
                   <div class="card__description">
+                    <p><b>${prod.precio}</b></p>
                     <p>${prod.descripcion}</p>
-                    <button class="card__button">Ver producto</button>                            
+                    <button class="card__button">Agregar al carrito</button>                            
                 </div>
               </div>
             </article>
@@ -36,3 +37,4 @@ let start = () => {
 }
 
 window.addEventListener('DOMContentLoaded', start)
+

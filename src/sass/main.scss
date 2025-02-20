@@ -6,3 +6,16 @@
 @use './pages/nosotros';
 @use './components/forms';
 @use './layout/footer';
+
+
+main {
+    background-color: rgb(122, 116, 116)
+}
+
+p {
+    font-weight: bold;
+}
+
+.section-cards {
+    background-color: rgb(185, 182, 181);
+}

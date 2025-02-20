@@ -70,7 +70,7 @@
 
 .search-bar {
     display: flex;
-    background-color: #ffed00;
+    background-color: #ffffff;
     justify-content: space-around;
     align-items: normal;
     width: 100%;
@@ -83,7 +83,7 @@
 
     &__form-container {
         padding: 1rem;
-        background-color: #ffed00;
+        background-color: #892a2a;
         display: flex;
         flex-basis: 100%;
         justify-content: center;
@@ -112,7 +112,7 @@
 
     &__carrito-container {
         flex: 0 0 3rem;
-        background-color: #ffed00;
+        background-color: #7e2727;
         display: flex;
         width: 100%;
         cursor: pointer;
@@ -136,7 +136,7 @@
 
     &__label {
         display: block;
-        background-color: #ffed00;
+        background-color: #843d3d;
         height: 100%;
         cursor: pointer;
     }
@@ -171,4 +171,8 @@
         }
     }
     
+}
+
+.logo-mefer {
+    clip-path: circle(49%);
 }
